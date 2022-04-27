@@ -170,7 +170,7 @@ int main()
 {
 	static int stored_selected = -1;
 
-	CreateThread(NULL, 0, (LPTHREAD_START_ROUTINE)run_functions, 0, 0, nullptr);
+	CloseHandle(CreateThread(NULL, 0, (LPTHREAD_START_ROUTINE)run_functions, 0, 0, nullptr));
 
 	while (true) {
 		static bool force_refresh = false;

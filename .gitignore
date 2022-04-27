@@ -1,0 +1,15 @@
+
+*.ipch
+*.db
+.vs/Console Based Menu/v16/.suo
+*.tlog
+*.recipe
+*.opendb
+*.db-wal
+*.db-shm
+*.pdb
+*.idb
+*.obj
+*.exe
+*.log
+*.ilk
